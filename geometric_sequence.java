@@ -1,10 +1,10 @@
 //import java.util.Scanner;
 
-public class geometric_sequence {
+public class Geometric_sequence {
 /*
-* Title of Class
-* Author's Name
-* Purpose
+* Title of Class: Geometric_sequence
+* Author's Name: Milda Kuciauskas
+* Purpose: to be called in order to solve a geometric sequence
 *
 * Resources:
 *

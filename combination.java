@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class combination {
+public class Combination {
     private int totalcombobj;
     private int chosencombobj;
     public void combInput() {
         Scanner combInfo = new Scanner(System.in);
-        System.out.println("How many objects are in your total set?");
+        System.out.println("How many objects are in your total set? CANNOT exceed 20!");
          totalcombobj = combInfo.nextInt();
         System.out.println("How many objects are you picking out of your total set?");
          chosencombobj = combInfo.nextInt();
@@ -13,6 +13,12 @@ public class combination {
         combInfo.close();
          
 
+    }
+    public int solveComb() {
+        return 0;
+    }
+    public long combFact() {
+        return 0;
     }
     
 

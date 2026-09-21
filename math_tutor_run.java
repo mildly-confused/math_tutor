@@ -6,36 +6,37 @@ import java.util.Scanner;
 *
 * Resources: 
 *Mrs. Ramsey-Rutledge's Assistance
-https://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java
+* https://stackoverflow.com/questions/513832/how-do-i-compare-strings-in-java
 * https://www.mathnasium.com/math-terms/permutation
+* https://www.cuemath.com/algebra/geometric-sequence/
 *
 *
 *
 *
 */
 
-public class math_tutor_run {
+public class Math_tutor_run {
 
 
     public static void main (String[] args) {
-            System.out.println("Hello, user. Do you need help solving a geometric sequence (g, enter), permutation (p, enter), or combination(c,enter) ?");
+            System.out.println("Hello, user. Do you need help finding a term of a geometric sequence (g, enter), solving a permutation (p, enter), or solving a combination(c,enter) ?");
             Scanner inputchoose = new Scanner(System.in);
             if (inputchoose.nextLine().equals("p")) {
-                inputchoose.close();
                 System.out.println("You have chosen permutation. A permutation is an arrangement of items in a SPECIFIC order.");
-                permutation perm1 = new permutation();
+                Permutation perm1 = new Permutation();
                 perm1.permInput();
 
 
             }
             else if (inputchoose.nextLine().equals("c")) {
-                inputchoose.close();
                System.out.println("You have chosen combination. A combination is an arrangement of items in a NONSPECIFIC order.");
-                combination comb1 = new combination();
+                Combination comb1 = new Combination();
 
             }
             else if (inputchoose.nextLine().equals("g")) {
-                inputchoose.close();
+                System.out.println("You have chosen to find a term of a geometric sequence. A geometric sequence is a listing of numbers in which each one is multiplied by a common ratio to get the next.");
+                Geometric_sequence geo1 = new Geometric_sequence();
+
 
 
             }
