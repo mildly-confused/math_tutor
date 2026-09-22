@@ -1,3 +1,12 @@
+/*
+* Title of Class: Combination
+* Author's Name: Milda Kuciauskas
+* Purpose: to be called in order to solve a combination
+*
+* Resources:
+* https://www.baeldung.com/java-calculate-factorial
+*/
+
 import java.util.Scanner;
 
 public class Combination {

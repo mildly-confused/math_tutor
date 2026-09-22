@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /*
-* Title of Class: math_tutor
+* Title of Class: Math_tutor_run
 * Author's Name: Milda Kuciauskas
 * Purpose: prompt user input to help them solve one of three math problems
 *
@@ -10,8 +10,7 @@ import java.util.Scanner;
 * https://www.mathnasium.com/math-terms/permutation
 * https://www.cuemath.com/algebra/geometric-sequence/
 *
-*
-*
+
 *
 */
 

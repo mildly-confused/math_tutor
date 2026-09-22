@@ -1,16 +1,13 @@
-import java.util.Scanner;
-
-public class Geometric_sequence {
 /*
 * Title of Class: Geometric_sequence
 * Author's Name: Milda Kuciauskas
 * Purpose: to be called in order to solve a geometric sequence
 *
-* Resources:
-*
 */
 
+import java.util.Scanner;
 
+public class Geometric_sequence {
 
 	private double commonRatio;
   private int nthTerm;
