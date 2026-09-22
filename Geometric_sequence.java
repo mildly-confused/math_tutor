@@ -19,7 +19,7 @@ public class Geometric_sequence {
         Scanner geoScanner = new Scanner(System.in);
         System.out.println("Which number term would you like to find?");
         nthTerm = geoScanner.nextInt();
-        System.out.println("What is the common ratio in your geometric sequence?");
+        System.out.println("What is the commogn ratio in your geometric sequence?");
         commonRatio = geoScanner.nextDouble();
         System.out.println("What is the first term of your geometric sequence?");
         firstTerm = geoScanner.nextDouble();

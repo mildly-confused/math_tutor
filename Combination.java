@@ -18,9 +18,9 @@ public class Combination {
 
     public void combInput() { //method for accepting and prompting user input prior to solving
         Scanner combInfo = new Scanner(System.in);
-        System.out.println("How many objects are in your total set? CANNOT exceed 20!");
+        System.out.println("How many objects are in your total set? CANNOT exceed 20 or be less than 1!");
          totalcombobj = combInfo.nextInt();
-        System.out.println("How many objects are you picking out of your total set? This cannot exceed " + totalcombobj);
+        System.out.println("How many objects are you picking out of your total set? This cannot exceed " + totalcombobj + " and must be a positive integer");
          chosencombobj = combInfo.nextInt();
         System.out.println("Thank you! Now to compute....");
         combInfo.close();

@@ -20,9 +20,9 @@ public class Permutation {
 
     public void permInput() { //method for prompting and accepting neccesary user input
         Scanner permInfo = new Scanner(System.in);
-        System.out.println("How many objects are in your total set? CANNOT exceed 20!");
+        System.out.println("How many objects are in your total set? CANNOT exceed 20 or be less than 1!");
         totalpermobj = permInfo.nextInt();
-        System.out.println("How many objects are you picking out of your total set? This cannot exceed " + totalpermobj);
+        System.out.println("How many objects are you picking out of your total set? This cannot exceed " + totalpermobj + " cand must be a positive integer");
         chosenpermobj = permInfo.nextInt();
         System.out.println("Thank you! Now to compute....");
         permInfo.close();
